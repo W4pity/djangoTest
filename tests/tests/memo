@@ -1,0 +1,5 @@
+#simple commands to work with manage.py
+
+> python manage.py runserver
+
+> python manage.py startapp <name> # add in url and setting the new app

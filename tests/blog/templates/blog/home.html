@@ -1,0 +1,11 @@
+{% extends "blog/header.html" %}
+
+{% block vehicule %} <!-- not necessary order, normally, content is before
+content1-->
+  <p>Je suis un gros camion américain</p>
+{% endblock %}
+{% block animaux %}
+  <p>Hey ... je suis un animal! </p>
+  {% include "blog/includes/htmlsnippet.html" %}
+{% endblock %}
+
